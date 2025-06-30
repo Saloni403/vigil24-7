@@ -881,12 +881,19 @@ width: 80%;
 .serv-img,
 .serv-cont {
     width: 45%;
-
+  
 }
 
-/* .serv-cont {
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-} */
+
+.serv-cont {
+  
+ border: 2px solid rgba(128, 128, 128, 0.444);
+    border-radius: 10px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+      padding: 1rem;
+/* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    /* border: 2px solid red; */
+}
 .serv-cont p {
     font-size: 13px;
 }
